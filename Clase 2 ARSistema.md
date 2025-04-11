@@ -22,7 +22,7 @@ es_estudiante = True
 
 - Usar nombres significativos (precio_total en lugar de p).
 
-- Espaciado y Estilo de Código (PEP 8)
+## Espaciado y Estilo de Código (PEP 8)
 
 - Usar 4 espacios por nivel de indentación.
 
@@ -52,10 +52,13 @@ exponente = 2 ** 3  # 2 elevado a la 3
 ### Operadores de Comparación
 
 ```python
-mayor = 10 > 5  # True
+mayor_o_igual = 10 >= 10  # True
+menor_o_igual = 5 <= 10  # True
+mayor = 10 > 10  # Falso
+menor = 5 < 10  # True
 menor = 5 < 10  # True
 igual = 5 == 5  # True
-diferente = 10 != 5  # True
+diferente = "d" != "r"  # True
 ```
 
 ### Operadores Lógicos

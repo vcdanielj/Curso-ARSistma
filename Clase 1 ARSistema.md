@@ -19,10 +19,12 @@ Un algoritmo es una secuencia de pasos lógicos y finitos para resolver un probl
 
   - **Python**: Proporciona resaltado de sintaxis, autocompletado y herramientas de depuración.
   - **GitHub Copilot**: Asistente de programación que sugiere líneas de código y funciones completas basadas en el contexto del archivo.
+  - **Codeium**: Asistente de programación que sugiere líneas de código y funciones completas basadas en el contexto del archivo.
   - **Material Icon Theme**: Proporciona un conjunto de íconos para archivos y carpetas en VS Code, mejorando la visualización del proyecto.
   - **Prettier**: Formateador de código que asegura un estilo consistente.
   - **Code Spell Checker**: Verifica la ortografía en el código y comentarios.
   - **Live Share**: Facilita la colaboración en tiempo real con otros desarrolladores.
+  - **Spanish Language Kit**: Editor de Còdigo paquete de español
 
 - **Consola de Comandos**:
 

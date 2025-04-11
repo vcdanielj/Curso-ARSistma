@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalle de Usuario{% endblock %}
+
+{% block content %}
+    {% if usuario %}
+        <h2>{{ usuario.nombre }}</h2>
+        <p>Email: {{ usuario.email }}</p>
+        <p>ID: {{ usuario.id }}</p>
+    {% else %}
+        <p>Usuario no encontrado</p>
+    {% endif %}
+    <a href="{{ url_for('index') }}">Volver al inicio</a>
+{% endblock %}

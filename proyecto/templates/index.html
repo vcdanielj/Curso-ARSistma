@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+    <h2>Lista de Usuarios</h2>
+    <ul>
+        {% for usuario in usuarios %}
+            <li>
+                <a href="{{ url_for('ver_usuario', usuario_id=usuario.id) }}">
+                    {{ usuario.nombre }}
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+    <a href="{{ url_for('registrar_usuario') }}" class="button">Nuevo Usuario</a>
+{% endblock %}

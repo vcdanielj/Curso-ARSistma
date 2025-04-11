@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>Página de Inicio</h1>
+
+<button ><a href=" {{ url_for('crear') }} ">Crear Producto</a></button>
+<button ><a href=" {{ url_for('editar') }} ">Editar Producto</a></button>
+<button ><a href=" {{ url_for('eliminar') }} ">Eliminar Producto</a></button>
+
+{% endblock %}
